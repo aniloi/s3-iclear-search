@@ -1,4 +1,4 @@
-/** All TypeScript interfaces for the S3 Fintrans Search UI. */
+/** All TypeScript interfaces for the S3 ICLEAR Search UI. */
 
 export interface SearchFormData {
   date: string;
