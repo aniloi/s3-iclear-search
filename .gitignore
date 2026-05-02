@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# pytest
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# IDE
+.zed/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Frontend build output (generated from source, rebuilt via `make build-frontend`)
+src/s3_search/static/
+
+# ai-dlc
+aidlc-docs/construction/plans/
+aidlc-docs/inception/plans/
+aidlc-docs/inception/requirements/requirement-verification-questions.md
+aidlc-docs/audit.md
+aidlc-docs/aidlc-state.md
