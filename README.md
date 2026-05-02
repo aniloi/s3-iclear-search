@@ -2,6 +2,13 @@
 
 CLI tool and web UI that searches AWS S3 ICLEAR_S3 files for payment/account/order identifiers. Replaces the manual process of listing files, streaming each one, and grepping for IDs.
 
+## Prerequisites
+
+- **Python 3.9+**
+- **AWS CLI** configured with at least one profile (`~/.aws/config`)
+- Active AWS credentials for the profile (run `aws sso login --profile <name>` if using SSO)
+- **Node.js 18+** and npm (only needed at build time for the web UI — not required at runtime)
+
 ## Quick Start
 
 ### Install (CLI only)
